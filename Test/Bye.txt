@@ -1,1 +1,3 @@
-Hello and Bye
+buy and Bye
+Good Bye
+안녕
