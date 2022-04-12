@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="http://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/d2coding.css" rel="stylesheet" type="text/css">
+
+
 </head>
 <body>
 
@@ -20,6 +23,7 @@
         {
             let floor = document.querySelector("#floor").value
             floor = Number(floor)
+            let pyramid = ""
             for(let i = 1; i<=floor; i++)
             {
                 for(let j = floor; j>i; j--)
@@ -45,10 +49,10 @@
         a=function(){
             alert("안녕")
         }
-        a()
+        //a()
         a = [1,2,3,"배열",function(){alert("함수")}, ["a","b","c"] ]
 
-        a[4]()
+        //a[4]()
 
 
         console.log(a)

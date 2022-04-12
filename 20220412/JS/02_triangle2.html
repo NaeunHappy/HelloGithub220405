@@ -41,6 +41,21 @@
             console.log(triangle)        
 
             //document.body.remove('#h1result')
+            //let oldresult = document.getElementByID("h1result")
+            
+            // id가 h1result인 태그가 존재할 때, 이 태그를 지운다.
+            // js에서는 0,null,''(공백),undefined 와 같은 일부 값들만 false로 간주하고
+            // 그 외의 모든 값들은  
+            //document 
+
+            if(document.getElementById("h1result"))
+                document.getElementById("h1result").remove()
+
+
+
+
+
+
             let result = document.createElement('h1')
             result.id = "h1result"
             result.innerHTML = triangle
